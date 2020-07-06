@@ -1,0 +1,11 @@
+>rabbitmq-service stop
+>rabbitmq-service start
+>rabbitmqctl status
+if we get error
+need to add cookie file
+>rabbitmqctl status
+>rabbitmq-plugins enable rabbitmq_management
+>rabbitmqctl status
+user http://localhost:15672 > 
+username --- guest , 
+PAssword --- guest

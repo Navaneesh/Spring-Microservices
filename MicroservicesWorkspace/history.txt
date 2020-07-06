@@ -1,0 +1,300 @@
+ostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection o
+r firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang
+ cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on http://rabbitmq.com/document
+ation.html to learn more
+ * Consult server logs on node rabbit@vani-PC
+
+DIAGNOSTICS
+===========
+
+attempted to contact: ['rabbit@vani-PC']
+
+rabbit@vani-PC:
+  * connected to epmd (port 4369) on vani-PC
+  * epmd reports node 'rabbit' uses port 25672 for inter-node and CLI tool traff
+ic
+  * TCP connection succeeded but Erlang distribution failed
+
+  * Authentication failed (rejected by the remote node), please check the Erlang
+ cookie
+
+
+Current node details:
+ * node name: 'rabbitmqcli77@vani-PC'
+ * effective user's home directory: F:\Users\vani
+ * Erlang cookie hash: 5OcTEsvfXKvd65PbXA0omw==
+
+
+F:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.3\sbin>rabbitmq-service sto
+p
+The RabbitMQ service is stopping..........
+The RabbitMQ service was stopped successfully.
+
+
+F:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.3\sbin>rabbitmq-service sta
+rt
+The RabbitMQ service is starting.
+The RabbitMQ service was started successfully.
+
+
+F:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.3\sbin>rabbitmqctl status
+Status of node rabbit@vani-PC ...
+Error: unable to perform an operation on node 'rabbit@vani-PC'. Please see diagn
+ostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection o
+r firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang
+ cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on http://rabbitmq.com/document
+ation.html to learn more
+ * Consult server logs on node rabbit@vani-PC
+
+DIAGNOSTICS
+===========
+
+attempted to contact: ['rabbit@vani-PC']
+
+rabbit@vani-PC:
+  * connected to epmd (port 4369) on vani-PC
+  * epmd reports node 'rabbit' uses port 25672 for inter-node and CLI tool traff
+ic
+  * TCP connection succeeded but Erlang distribution failed
+
+  * Authentication failed (rejected by the remote node), please check the Erlang
+ cookie
+
+
+Current node details:
+ * node name: 'rabbitmqcli70@vani-PC'
+ * effective user's home directory: F:\Users\vani
+ * Erlang cookie hash: evB1eYF84GQb7Hh4Z+HD8w==
+
+
+F:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.3\sbin>rabbitmqctl status
+Status of node rabbit@vani-PC ...
+Error: unable to perform an operation on node 'rabbit@vani-PC'. Please see diagn
+ostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection o
+r firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang
+ cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on http://rabbitmq.com/document
+ation.html to learn more
+ * Consult server logs on node rabbit@vani-PC
+
+DIAGNOSTICS
+===========
+
+attempted to contact: ['rabbit@vani-PC']
+
+rabbit@vani-PC:
+  * connected to epmd (port 4369) on vani-PC
+  * epmd reports node 'rabbit' uses port 25672 for inter-node and CLI tool traff
+ic
+  * TCP connection succeeded but Erlang distribution failed
+
+  * Authentication failed (rejected by the remote node), please check the Erlang
+ cookie
+
+
+Current node details:
+ * node name: 'rabbitmqcli37@vani-PC'
+ * effective user's home directory: F:\Users\vani
+ * Erlang cookie hash: Ass2itpay8XW2VhrNWtsfA==
+
+
+F:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.3\sbin>rabbitmqctl status
+Status of node rabbit@vani-PC ...
+[{pid,8068},
+ {running_applications,
+     [{rabbit,"RabbitMQ","3.7.3"},
+      {rabbit_common,
+          "Modules shared by rabbitmq-server and rabbitmq-erlang-client",
+          "3.7.3"},
+      {ranch_proxy_protocol,"Ranch Proxy Protocol Transport","1.4.4"},
+      {ranch,"Socket acceptor pool for TCP protocols.","1.4.0"},
+      {ssl,"Erlang/OTP SSL application","8.2.3"},
+      {public_key,"Public key infrastructure","1.5.2"},
+      {asn1,"The Erlang ASN1 compiler version 5.0.4","5.0.4"},
+      {crypto,"CRYPTO","4.2"},
+      {recon,"Diagnostic tools for production use","2.3.2"},
+      {mnesia,"MNESIA  CXC 138 12","4.15.2"},
+      {jsx,"a streaming, evented json parsing toolkit","2.8.2"},
+      {inets,"INETS  CXC 138 49","6.4.5"},
+      {os_mon,"CPO  CXC 138 46","2.4.4"},
+      {xmerl,"XML parser","1.3.16"},
+      {lager,"Erlang logging framework","3.5.1"},
+      {goldrush,"Erlang event stream processor","0.1.9"},
+      {compiler,"ERTS  CXC 138 10","7.1.4"},
+      {syntax_tools,"Syntax tools","2.1.4"},
+      {sasl,"SASL  CXC 138 11","3.1.1"},
+      {stdlib,"ERTS  CXC 138 10","3.4.3"},
+      {kernel,"ERTS  CXC 138 10","5.4.1"}]},
+ {os,{win32,nt}},
+ {erlang_version,
+     "Erlang/OTP 20 [erts-9.2] [64-bit] [smp:4:4] [ds:4:4:10] [async-threads:64]
+\n"},
+ {memory,
+     [{connection_readers,0},
+      {connection_writers,0},
+      {connection_channels,0},
+      {connection_other,0},
+      {queue_procs,0},
+      {queue_slave_procs,0},
+      {plugins,5736},
+      {other_proc,29215824},
+      {metrics,185040},
+      {mgmt_db,0},
+      {mnesia,73488},
+      {other_ets,1900872},
+      {binary,642128},
+      {msg_index,29616},
+      {code,24936719},
+      {atom,1041593},
+      {other_system,10096088},
+      {allocated_unused,14382720},
+      {reserved_unallocated,0},
+      {strategy,rss},
+      {total,[{erlang,68127104},{rss,82509824},{allocated,82509824}]}]},
+ {alarms,[]},
+ {listeners,[{clustering,25672,"::"},{amqp,5672,"::"},{amqp,5672,"0.0.0.0"}]},
+ {vm_memory_calculation_strategy,rss},
+ {vm_memory_high_watermark,0.4},
+ {vm_memory_limit,5115487846},
+ {disk_free_limit,50000000},
+ {disk_free,103116447744},
+ {file_descriptors,
+     [{total_limit,8092},
+      {total_used,2},
+      {sockets_limit,7280},
+      {sockets_used,0}]},
+ {processes,[{limit,1048576},{used,221}]},
+ {run_queue,0},
+ {uptime,129},
+ {kernel,{net_ticktime,60}}]
+
+F:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.3\sbin>dir
+ Volume in drive F is Local Disk
+ Volume Serial Number is F2B1-E5AE
+
+ Directory of F:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.3\sbin
+
+06/30/2020  09:49 AM    <DIR>          .
+06/30/2020  09:49 AM    <DIR>          ..
+06/28/2020  12:00 AM                20 .erlang.cookie
+01/30/2018  04:06 PM           468,026 cuttlefish
+01/30/2018  04:06 PM             1,781 rabbitmq-defaults.bat
+01/30/2018  04:06 PM             2,001 rabbitmq-diagnostics.bat
+01/30/2018  04:06 PM             1,065 rabbitmq-echopid.bat
+01/30/2018  04:06 PM            16,287 rabbitmq-env.bat
+01/30/2018  04:06 PM             1,967 rabbitmq-plugins.bat
+01/30/2018  04:06 PM             7,417 rabbitmq-server.bat
+01/30/2018  04:06 PM            11,116 rabbitmq-service.bat
+01/30/2018  04:06 PM             1,992 rabbitmqctl.bat
+              10 File(s)        511,672 bytes
+               2 Dir(s)  103,115,866,112 bytes free
+
+F:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.3\sbin>rabbitmq-plugins ena
+ble rabbitmq-management
+Enabling plugins on node rabbit@vani-PC:
+rabbitmq-management
+Error:
+{:plugins_not_found, [:"rabbitmq-management"]}
+
+F:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.3\sbin>rabbitmqctl status
+Status of node rabbit@vani-PC ...
+[{pid,8068},
+ {running_applications,
+     [{rabbit,"RabbitMQ","3.7.3"},
+      {rabbit_common,
+          "Modules shared by rabbitmq-server and rabbitmq-erlang-client",
+          "3.7.3"},
+      {ranch_proxy_protocol,"Ranch Proxy Protocol Transport","1.4.4"},
+      {ranch,"Socket acceptor pool for TCP protocols.","1.4.0"},
+      {ssl,"Erlang/OTP SSL application","8.2.3"},
+      {public_key,"Public key infrastructure","1.5.2"},
+      {asn1,"The Erlang ASN1 compiler version 5.0.4","5.0.4"},
+      {crypto,"CRYPTO","4.2"},
+      {recon,"Diagnostic tools for production use","2.3.2"},
+      {mnesia,"MNESIA  CXC 138 12","4.15.2"},
+      {jsx,"a streaming, evented json parsing toolkit","2.8.2"},
+      {inets,"INETS  CXC 138 49","6.4.5"},
+      {os_mon,"CPO  CXC 138 46","2.4.4"},
+      {xmerl,"XML parser","1.3.16"},
+      {lager,"Erlang logging framework","3.5.1"},
+      {goldrush,"Erlang event stream processor","0.1.9"},
+      {compiler,"ERTS  CXC 138 10","7.1.4"},
+      {syntax_tools,"Syntax tools","2.1.4"},
+      {sasl,"SASL  CXC 138 11","3.1.1"},
+      {stdlib,"ERTS  CXC 138 10","3.4.3"},
+      {kernel,"ERTS  CXC 138 10","5.4.1"}]},
+ {os,{win32,nt}},
+ {erlang_version,
+     "Erlang/OTP 20 [erts-9.2] [64-bit] [smp:4:4] [ds:4:4:10] [async-threads:64]
+\n"},
+ {memory,
+     [{connection_readers,0},
+      {connection_writers,0},
+      {connection_channels,0},
+      {connection_other,0},
+      {queue_procs,0},
+      {queue_slave_procs,0},
+      {plugins,5736},
+      {other_proc,29035792},
+      {metrics,185040},
+      {mgmt_db,0},
+      {mnesia,73488},
+      {other_ets,1900968},
+      {binary,642112},
+      {msg_index,29616},
+      {code,24936719},
+      {atom,1041593},
+      {other_system,10096984},
+      {allocated_unused,15610352},
+      {reserved_unallocated,0},
+      {strategy,rss},
+      {total,[{erlang,67948048},{rss,83558400},{allocated,83558400}]}]},
+ {alarms,[]},
+ {listeners,[{clustering,25672,"::"},{amqp,5672,"::"},{amqp,5672,"0.0.0.0"}]},
+ {vm_memory_calculation_strategy,rss},
+ {vm_memory_high_watermark,0.4},
+ {vm_memory_limit,5115487846},
+ {disk_free_limit,50000000},
+ {disk_free,103115816960},
+ {file_descriptors,
+     [{total_limit,8092},
+      {total_used,2},
+      {sockets_limit,7280},
+      {sockets_used,0}]},
+ {processes,[{limit,1048576},{used,221}]},
+ {run_queue,0},
+ {uptime,344},
+ {kernel,{net_ticktime,60}}]
+
+F:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.3\sbin>
+
+F:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.3\sbin>

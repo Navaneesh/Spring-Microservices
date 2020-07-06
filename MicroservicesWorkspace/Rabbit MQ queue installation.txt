@@ -1,0 +1,16 @@
+install  earlang (otp_win64_20.2) first and after that rabbitmq-server-3.7.3
+
+
+D:\Program Files\RabbitMQ Server\rabbitmq_server-3.6.9\sbin> 
+>rabbitmq-service stop
+>rabbitmq-service start
+>rabbitmqctl status
+if we get error
+need to add cookie file
+>rabbitmqctl status
+>rabbitmq-plugins enable rabbitmq_management
+>rabbitmqctl status
+user http://localhost:15672 > 
+username --- guest , 
+PAssword --- guest
+
